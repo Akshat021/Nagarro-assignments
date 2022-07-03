@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+header{
+    background-color: aquamarine;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(38, 38, 38);
+}
+
+header section{
+    display: flex;
+    flex-direction: column;
+}
+
+section h3{
+    font-size: 28px;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    color: darkslategrey;
+    margin: 10px;
+    width: Calc(100vw - 20px);
+    min-width: 0%;
+
+    border-collapse:separate;
+    border:solid black 2px;
+    border-radius:6px;
+}
+
+th{
+    background-color: beige;
+    height: 40px;
+}
+
+td, th {
+    text-align: center;
+    font-size: 18px;
+    border-left:solid black 2px;
+    border-top:solid black 2px;
+}
+
+th {
+    border-top: none;
+}
+
+td:first-child, th:first-child {
+     border-left: none;
+}
+
+hr{
+    margin-top: 30px;
+    border: solid rgba(128, 128, 128, 0.318) 5px;
+    border-top: 0px;
+}
+
+.newEntry h4{
+    margin: 0 30px 20px 10px;
+    font-size: 30px;
+    color: black;
+}
+
+.newEntry{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+    border-radius: 10px;
+}
+
+.newEntry form{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+button{
+    margin-top: 20px;
+    min-width: 208px;
+}
+input{
+    display: block;
+    width: 200px;
+}
